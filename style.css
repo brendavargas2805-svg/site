@@ -1,0 +1,22 @@
+body { /* define o corpo do documento.*/
+
+    font-family:Arial, helvetica, sans-serif;/* definir fonte da pagina */
+    background-color:cadetblue;/*é usada para definir a cor de fundo */
+    margin:0; /* controla o espaçamento ao redor de um elemento */
+    padding:0;/*define o espaço entre o conteúdo de um elemento e sua borda */
+} /* fecha body */
+
+header { /* abre header*/
+    background-color: rgb(6, 62, 110);/* definir cor de fundo pagina */
+    color:white;/* definir a cor de primeiro plano do texto de um elemento.  */
+    padding:10px;/*cria um espaço entre o conteúdo de um elemento e sua borda */
+    text-align:center;/*usada para centralizar horizontalmente o conteúdo embutido */
+} /* fecha header*/ 
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color:black;
+    background-color:darkcyan (16, 36, 58);
+    width:100%;
+}
