@@ -1,22 +1,30 @@
-body { /* define o corpo do documento.*/
+/* COMENTÁRIOS SOBRE CSS */
+body { /* abre body*/
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 194, 242);/*cor de fundo da página*/
+    margin:0;
+    padding:0;
+} /* fecha body*/
 
-    font-family:Arial, helvetica, sans-serif;/* definir fonte da pagina */
-    background-color:cadetblue;/*é usada para definir a cor de fundo */
-    margin:0; /* controla o espaçamento ao redor de um elemento */
-    padding:0;/*define o espaço entre o conteúdo de um elemento e sua borda */
-} /* fecha body */
-
-header { /* abre header*/
-    background-color: rgb(6, 62, 110);/* definir cor de fundo pagina */
-    color:white;/* definir a cor de primeiro plano do texto de um elemento.  */
-    padding:10px;/*cria um espaço entre o conteúdo de um elemento e sua borda */
-    text-align:center;/*usada para centralizar horizontalmente o conteúdo embutido */
-} /* fecha header*/ 
+header {
+    background-color: rgb(4, 45, 80);
+    color: white;
+    padding:10px;
+    text-align: center;
+}
 
 footer {
-    text-align: center;
-    padding: 10px;
-    color:black;
-    background-color:darkcyan (16, 36, 58);
+    text-align:center;
+    padding:10px;
+    color:rgb(255, 255, 255); 
+    background-color: rgb(16, 36, 58);
     width:100%;
+}
+button { 
+    backgroud-color:#008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
